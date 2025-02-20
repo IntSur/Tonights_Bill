@@ -56,7 +56,7 @@ struct ContentView: View {
                     Text(perPersonAmount, format: .currency(code: userCurrency))
                 }
             }
-            .navigationTitle("Tonight's bill 🥗")
+            .navigationTitle("Tonight's Bill 🥗")
             .toolbar {
                 Button("Done") {
                     isAmountFieldFocused = false
